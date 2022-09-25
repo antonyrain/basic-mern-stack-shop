@@ -41,14 +41,14 @@ const products = [
     image3: "product-img3(3).png",
     image4: "product-img3(4).png",
     image5: "product-img3(5).png",
-    short_description: "Mysterium_Cosmographicum_solar_system_model.jpg",
+    short_description: "Mysterium Cosmographicum solar system model",
     description:
       "Items offered in the shop are DIGITAL products available for free download. They can be described as: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     formats: ".jpg",
     price: 51.20,
     countInStock: 10,
     isFree: true,
-    download_link: "Mysterium_Cosmographicum_solar_system_model.jpg",
+    download_link: "Short description",
   },
   {
     name: "Product Example 4",
