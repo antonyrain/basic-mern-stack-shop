@@ -1,0 +1,19 @@
+.discounts-screen {
+    max-width: 1600px;
+    height: 100%;
+    padding: 20px;
+}
+
+.discounts-screen-content {
+    padding: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+    background: var(--background);
+}
+
+.discounts-screen-title {
+    font-size: 1.5rem;
+    padding: 25px;
+}

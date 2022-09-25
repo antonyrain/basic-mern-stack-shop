@@ -1,0 +1,93 @@
+.cartscreen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1600px;
+  height: 100%;
+  gap: 15px;
+  margin-top: 10px;
+  padding: 50px 10px 10px 10px;
+}
+
+.cartscreen h2 {
+  margin-bottom: 1rem;
+}
+
+.cartscreen-left {
+  border-radius: 25px;
+  box-shadow: var(--inner-shadow);
+  padding: 20px;
+}
+
+.cartscreen-right {
+  background: var(--background);
+  border-radius: 25px;
+  box-shadow: var(--shadow);
+}
+
+.cartscreen-right div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.cartscreen-info p {
+  padding: 8px;
+}
+
+.cartscreen__right div:last-child {
+  border: none;
+}
+
+.conteiner-button-checkout {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cartscreen-right div button {
+  width: 250px;
+  background-image: linear-gradient(var(--button-gradient));
+  border: 1px solid var(--button-border);
+  border-radius: 25px;
+  box-shadow: var(--button-shadow);
+  padding: 10px 17px;
+  transition: all 0.2s ease;
+}
+
+.cartscreen-right div button:hover {
+  box-shadow: var(--button-shadow-focus);
+}
+
+.donate-button-coffee {
+  display: flex;
+  justify-content: center;
+}
+
+.donate-button-coffee a > img {
+  width: 170px;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease-out;
+}
+
+.donate-button-coffee a > img:hover,
+.donate-button-coffee a > img:active,
+.donate-button-coffee a > img:focus {
+  transform: scale(1.1);
+}
+
+.donate-button-paypal {
+  width: 150px;
+  margin-top: 1rem;
+}
+
+@media (max-width: 960px) {
+  .cartscreen {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .cartscreen-right {
+    width: 100%;
+  }
+}

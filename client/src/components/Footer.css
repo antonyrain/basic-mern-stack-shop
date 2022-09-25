@@ -1,0 +1,111 @@
+:root {
+    --font: 'Ubuntu', sans-serif;
+    --bg-color: #252525;
+    --color-text: #ffffff;
+    --color-logo: #F1C40F;
+    --color-border: #C21010;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: fit-content;
+    font-family: var(--font);
+    background-color: var(--bg-color);
+    box-shadow: 0px -6px 69px -18px rgba(0,0,0,0.6);
+    margin-top: 50px;
+    z-index: 50;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-links > li {
+    padding-bottom: 0.5rem;
+}
+
+.footer-links > li > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 1rem;
+}
+
+.footer-links > li > a > span {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.footer-shop-link:hover {
+    color: yellow;
+}
+
+.footer-solutions-link:hover {
+    color: yellow;
+}
+
+.footer-about-link:hover {
+    color: yellow;
+}
+
+.footer-company-link:hover {
+    color: yellow;
+}
+
+.footer-knowledge-link:hover {
+    color: yellow;
+}
+
+.footer-license-link:hover {
+    color: yellow;
+}
+
+.footer-privacy-link:hover {
+    color: yellow;
+}
+
+.footer-discounts-link:hover {
+    color: yellow;
+}
+
+
+.footer-block-2 > p {
+    padding: 1.5rem;
+    font-size: 1rem;
+    color: var(--color-text);
+}
+
+.donate-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.footer-donate-button-coffee a > img {
+    width: 150px;
+    border-radius: 15px;
+    margin-top: 1rem;
+    transition: all 0.3s ease-out;
+}
+
+.footer-donate-button-coffee a > img:hover,
+.footer-donate-button-coffee a > img:active,
+.footer-donate-button-coffee a > img:focus {
+    transform: scale(1.1);
+}
+
+.footer-copyright {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin-top: 1rem;
+}

@@ -1,0 +1,23 @@
+.nav-submenu {
+    display: block;
+    position: absolute;
+    background-color: var(--body-bg-color);
+    color: black;
+    list-style: none;
+    border-radius: 0 0 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 210px;
+    padding: 5px 15px;
+  }
+
+  .nav-submenu li {
+    margin-bottom: 12px;
+  }
+
+  .nav-submenu-item {
+    justify-content: space-around;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+  }
+      

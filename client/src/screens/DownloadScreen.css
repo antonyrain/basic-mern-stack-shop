@@ -1,0 +1,27 @@
+.downloadscreen {
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    height: 100%;
+    padding: 50px 10px 10px 10px;
+  }
+
+  .downloadscreen-container {
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: var(--inner-shadow);  
+  }
+
+  .downloadscreen h2 {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 960px) {
+    .downloadscreen {
+      flex-direction: column;
+      margin: 1rem;
+    }
+    .downloadscreen-right {
+      width: 100%;
+    }
+  }

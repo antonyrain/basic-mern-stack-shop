@@ -1,0 +1,43 @@
+:root {
+  --font: 'Ubuntu', sans-serif;
+  --color-txt: #000;
+  --body-bg-color: #dde1e7;
+
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #9baacf;
+  --greyLight-3: #bec8e4;
+  --greyDark: rgba(94,104,121,0.3);
+
+  --shadow: -5px -5px 9px var(--greyLight-1), 5px 5px 9px var(--greyDark);
+  --shadow-2: -5px -5px 9px var(--greyDark), 5px 5px 9px var(--greyLight-1);
+  --inner-shadow: inset .2rem .2rem .5rem var(--greyDark), inset -.2rem -.2rem .5rem var(--white);
+  --inner-shadow-2: inset .2rem .2rem .5rem var(--greyDark), inset -.2rem -.2rem .5rem var(--greyLight-1);
+
+  --background: #f8f8f8;
+  --button-gradient: #D8D9DB 0%, #fff 80%, #FDFDFD 100%;
+  --button-border: #8F9092;
+  --button-text: #606060;
+
+  --button-shadow-focus: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  --button-shadow-hover: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  --button-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 10px 0px rgba(196, 196, 197, 0.6);
+  --button-shadow-active: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px rgb(155, 155, 155), inset 0 0 30px rgb(190, 190, 190);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--body-bg-color);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+  }
+  

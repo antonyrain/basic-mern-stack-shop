@@ -1,0 +1,46 @@
+.aboutscreen {
+    max-width: 1600px;
+    height: 100%;
+    padding: 20px;
+}
+
+.about-screen-content {
+    background: var(--background);
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+    padding: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.about-screen-title {
+    font-size: 1.5rem;
+    padding: 25px;
+}
+
+.button-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background-image: linear-gradient(var(--button-gradient));
+    border: 1px solid var(--button-border);
+    border-radius: 30px;
+    box-shadow: var(--button-shadow);
+    margin: 5px 5px;
+    transition: all 0.2s ease;
+}
+
+.about-screen-content p a {
+    font-size: 1rem;
+    color: var(--color-txt);
+    text-decoration: none;
+}
+
+.button-link:hover {
+    box-shadow: var(--button-shadow-hover);
+}
+.button-link:active {
+    box-shadow: var(--button-shadow-active);
+}

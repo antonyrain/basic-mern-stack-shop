@@ -1,0 +1,152 @@
+.downloaditem {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 8px;
+  width: 100%;
+  background: var(--background);
+  box-shadow: var(--shadow);
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 1rem;
+}
+  
+.downloaditem-name {
+  text-decoration: none;
+  color: #171717;
+}
+
+.downloaditem-image > img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: var(--greyLight-3) solid 3px;
+}
+
+.downloaditem-name:hover {
+  border-bottom: var(--primary-dark) 1px;
+}
+
+.downloaditem-select {
+  padding: 10px 17px;
+}
+
+.downloaditem-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.btn-download {
+  width: 100%;
+  color: red;
+  background-image: linear-gradient(var(--button-gradient));
+  border: 1px solid var(--button-border);
+  border-radius: 25px;
+  box-shadow: var(--button-shadow);
+  padding: 7px 50px;
+  transition: all 0.2s ease;
+}
+
+.btn-download:hover {
+  box-shadow: var(--button-shadow-hover);
+}
+
+.btn-download:focus {
+  box-shadow: var(--button-shadow-focus);
+}
+
+.btn-download:active {
+  box-shadow: var(--button-shadow-active);
+}
+
+.downloaditem-donate-button-coffee {
+  margin-left: 2rem;
+}
+
+.downloaditem-donate-button-coffee a > img {
+  width: 170px;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease-out;
+}
+
+.downloaditem-donate-button-coffee a > img:hover,
+.downloaditem-donate-button-coffee a > img:active,
+.downloaditem-donate-button-coffee a > img:focus {
+  transform: scale(1.1);
+}
+
+
+.downloaditem-donate-button-paypal {
+  width: 150px;
+  margin-left: 5px;
+}
+
+@media (max-width: 700px) {
+  .downloaditem-select,
+  .downloaditem-deleteBtn {
+    padding: 8px 13px;
+  }
+  
+  .downloaditem-price {
+    font-size: 0.8rem;
+  }
+
+  .downloaditem-btn-container {
+    flex-direction: column;
+  }
+
+  .downloaditem-image > img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .downloaditem-donate-button-coffee {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .downloaditem-donate-button-paypal {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .downloaditem-name {
+    font-size: 0.6rem;
+  }
+
+  .downloaditem-select,
+  .downloaditem-deleteBtn {
+    padding: 5px 8px;
+  }
+
+  .downloaditem-price {
+    font-size: 0.6rem;
+  }
+
+  .downloaditem-btn-container {
+    flex-direction: column;
+  }
+
+  .downloaditem-donate-button-coffee {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .downloaditem-donate-button-paypal {
+    margin-left: 0px;
+  }
+
+  .btn-download {
+    padding: 7px 20px;
+  }
+
+  .downloaditem-donate-button-coffee a > img {
+    width: 120px;
+  }
+}
